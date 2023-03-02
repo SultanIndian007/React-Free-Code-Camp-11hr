@@ -1,9 +1,27 @@
-ReactDOM.render(<h1>Hello,React@!</h1>,document.getElementById("root"))
-const h1 = document.createElement("h1")
+/* const h1 = document.createElement("h1")
 h1.textContent="Imperative way"
 h1.className="header"
 document.getElementById("root").append("h1")
 
+const element=<h1 className="header">This is JSX</h1>
+console.log(element)
+
+ReactDOM.render(element,document.getElementById("root")) */
+
+//JSX
+
+const page = (
+    <div>
+        <h1 className="header">JSX it is</h1>
+        <p>JSX it is cool!!</p>
+    </div>
+)
+
+console.log(page)
+ReactDOM.render(
+    page,
+    document.getElementById("root")
+)
 /* ReactDOM.render(
     <ul>
         <li>A</li>

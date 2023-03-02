@@ -1,9 +1,15 @@
+ReactDOM.render(<h1>Hello,React@!</h1>,document.getElementById("root"))
+const h1 = document.createElement("h1")
+h1.textContent="Imperative way"
+h1.className="header"
+document.getElementById("root").append("h1")
+
 /* ReactDOM.render(
     <ul>
         <li>A</li>
         <li>V </li>
     </ul>,
-    document.getElementById("root")) */
+    document.getElementById("root"))
 
 function Navbar() {
     return (
@@ -51,17 +57,17 @@ function Navbar() {
 
 // Afterward, render it below the Navbar (which
 // you can do inside the ReactDOM.render call below)
-/* 
+
 function MainContent() {
     return (
-        
+        <h1>Hello</h1>
     )
-}*/
+}
 
 ReactDOM.render(
     <div>
         <Navbar />
-        
+        <MainContent />
     </div>,
     document.getElementById("root")
-)
+) */

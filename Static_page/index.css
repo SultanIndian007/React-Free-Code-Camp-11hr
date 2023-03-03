@@ -1,4 +1,9 @@
-html,body{
-    margin:0;
-    padding: 0;
+*{
+    margin: 20px;
+}
+heading{
+    font-weight: bolder;
+}
+image{
+    width: 40px;
 }

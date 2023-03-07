@@ -1,4 +1,44 @@
+function Reactcode (){
+    return(
+        <div>
+            <header>
+                <nav>
+                    <img src="./reactgif.gif"></img>
+                </nav>
+            </header>
+            <h1>Reasons I am excited to learn React</h1>
+            <ol>
+                <li>I intend to surpass my friend and eternal rival Ganesh in React then beat Jwala</li>
+                <li>React is fun to integrate and is used widely in MERN stack so ill do it too</li>
+                <li>My name is Itachi</li>
+                <li>I have to master REACT in order to survive</li>
+            </ol>
+            <footer>
+                <small>© 2023 Sultan development. All rights reserved</small>
+            </footer>
+        </div>
+    )
+}
 
+ReactDOM.render(<Reactcode />,document.getElementById("root"))
+
+function Random() {
+    return(
+        <div>
+        <img src="favicon.ico"></img>
+        <h1>Fun Facts about React</h1>
+        <ul>
+            <li>Was first released in 2013</li>
+            <li>Was originally created by Jordan Walk</li>
+            <li>Has well over 100k stars on Github</li>
+            <li>Is maintained by Facebook</li>
+            <li>Powered thousands of mobile apps, including mobile apps</li>
+        </ul>
+    </div>
+    )
+}
+
+ReactDOM.render(<Random /> ,document.getElementById("root"))
 const page = (
     <div>
         <img src="favicon.ico"></img>

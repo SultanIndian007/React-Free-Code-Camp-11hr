@@ -4,6 +4,21 @@
 heading{
     font-weight: bolder;
 }
-image{
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+ /*    list-style: none;
+    display: flexbox;
+    align-items: flex-end;
+    text-align: end;
+    margin-left: 900px;
+    margin-top: -75px;
+    padding: 10px; */
+} 
+.reaactimage{
     width: 40px;
 }

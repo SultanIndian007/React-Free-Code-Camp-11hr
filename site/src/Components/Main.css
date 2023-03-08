@@ -1,0 +1,31 @@
+.main{
+    background-color: #282D34;
+    width: 700px;
+    margin: 50px;
+    margin-top: -50px;
+    padding-top: 10px;
+    color: #fff;
+    height: 350px;
+    padding-left: 20px;
+    list-style: none;
+}
+.main > h1{
+    letter-spacing: -0.05em;
+}
+.main--facts{
+    margin-top: 45px;
+}
+.main--facts > li{
+    font-family: Inter;
+    max-width: 400px;
+    padding-block: 10px;
+}
+
+.main--facts > li::marker{
+    color: #61DAFB;
+    font-size: 1.4em;
+}
+  
+/* ul li::before{
+    
+} */

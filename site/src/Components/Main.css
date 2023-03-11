@@ -8,6 +8,9 @@
     height: 350px;
     padding-left: 20px;
     list-style: none;
+    background-image: url(../Images/react-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 85%;
 }
 .main > h1{
     letter-spacing: -0.05em;
@@ -26,6 +29,7 @@
     font-size: 1.4em;
 }
   
-/* ul li::before{
+/* 
+.ul li::before{
     
-} */
+}*/ 

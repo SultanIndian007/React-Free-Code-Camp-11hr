@@ -1,5 +1,7 @@
 import React from "react";
 import "./Main.css"
+import logo from "../Images/react-icon-large.png"
+
 function Main(){
     return (
         <main className="main">

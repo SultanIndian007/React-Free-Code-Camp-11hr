@@ -5,13 +5,21 @@ import Navbar from '../src/Components/Navbar'
 import Hero from '../src/Components/Hero'
 import Card from '../src/Components/Card'
 import reportWebVitals from './reportWebVitals';
+import s1 from "./Images/s1.jpeg"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
     <Hero />
-    <Card/>
+    <Card
+      img={s1}
+      rating="5.9"
+      reviewCount={8}
+      country="USA"
+      title="Life lessons with Katie Zaferes"
+      price={136}
+    />
   </React.StrictMode>
 );
 

@@ -1,0 +1,24 @@
+.btn {
+    grid-column: 1 / -1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100% );
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+}
+.form{ 
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    font-family: "Karla", sans-serif;
+    gap: 17px;
+}
+.inputs{
+    text-indent: 5px;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+}
+main{
+    padding: 36px;
+}

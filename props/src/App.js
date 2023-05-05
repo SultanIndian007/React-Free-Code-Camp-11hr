@@ -1,18 +1,15 @@
-import React from "react"
-import Joke from "./Joke"
-import jokesdata from "./jokesdata"
+import React from "react";
+import Joke from "./Joke";
+import jokesdata from "./jokesdata";
 
 export default function App() {
-  const jokeElements = jokesdata.map(joke => {
-    return <Joke Setup={joke.setup} Punchline={joke.punchline}/>
-  })
-    return (
-        <div>
-            {jokeElements}
-        </div>
-    )
-  }
-  {/* <Joke 
+  const jokeElements = jokesdata.map((joke) => {
+    return <Joke Setup={joke.setup} Punchline={joke.punchline} />;
+  });
+  return <div>{jokeElements}</div>;
+}
+{
+  /* <Joke 
     Punchline="It's hard to explain puns to kleptomaniacs because 
     they always take things literally."
     isPun={false}
@@ -44,4 +41,5 @@ export default function App() {
     Setup=" What's the best thing about Switzerland?"
     Punchline=" I don't know, but the flag is a big plus!"
     isPun={false}
-  /> */}
+  /> */
+}

@@ -3,7 +3,7 @@ import "./Meme.css";
 import memesData from ".././memedata";
 
 export default function Meme() {
-  const [memeImage, setMemeImage] = useState("");
+  const [memeImage, setMemeImage] = useState("https://i.imgflip.com/30b1gx.jpg");
 
   function getMemeImage() {
     const memesArray = memesData.data.memes;
